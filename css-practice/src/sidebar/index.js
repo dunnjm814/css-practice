@@ -1,5 +1,6 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
+import {NavLink} from 'react-router-dom'
 import './sidebar.css'
 
 import React, {useState} from "react";
@@ -22,7 +23,9 @@ function SideBar() {
         <div className="close" onClick={openSidebar}>
           <IoMdClose />
         </div>
-        <div>section one</div>
+        <div>
+          <NavLink to='/animations'>Animations</NavLink>
+        </div>
         <div>section two</div>
         <div>section three</div>
       </div>
