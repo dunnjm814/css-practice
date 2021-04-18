@@ -1,0 +1,13 @@
+.circle{
+  width: 100px;
+  height: 100px;
+  background-color: salmon;
+  border-radius: 50%;
+
+  transform: translateX(200px);
+  transition: transform 1s;
+}
+
+.moved{
+  transform: translateX(400%);
+}

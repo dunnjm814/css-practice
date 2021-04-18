@@ -1,17 +1,26 @@
 import React, {useLayoutEffect} from 'react'
+import Circle from './circle';
+import './animations.css'
 
 
 function Animate() {
   useLayoutEffect(() => {
-    const onScroll = () => { };
-    window.addEventListener('scroll', onScroll)
-    // cleanup scroll listener 
-    return ()=> window.removeEventListener('scroll', onScroll)
+
   })
   return (
-    <>
+    <div className='animate-page'>
       <h1>Animations page</h1>
-    </>
+      <div className='scroll'>scroll boiiii</div>
+      <div className='scroll'>scroll boiiii</div>
+      <div className='scroll'>scroll boiiii</div>
+      <div className='scroll'>scroll boiiii</div>
+      <div className='scroll'>scroll boiiii</div>
+      <div className='scroll'>scroll boiiii</div>
+      <Circle />
+      <div className='scroll'>scroll boiiii</div>
+      <div className='scroll'>scroll boiiii</div>
+      <div className='scroll'>scroll boiiii</div>
+    </div>
   )
 }
 export default Animate
