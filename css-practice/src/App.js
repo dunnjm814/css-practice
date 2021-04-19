@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Animate from './animate';
+import Morph from './morph';
 import SideBar from "./sidebar";
 
 function App() {
@@ -10,8 +11,11 @@ function App() {
       <BrowserRouter>
         <SideBar />
         <Switch>
-          <Route path='/animations'>
+          <Route path='/scroll-animations'>
             <Animate />
+          </Route>
+          <Route path='/morph'>
+            <Morph />
           </Route>
         </Switch>
       </BrowserRouter>

@@ -10,7 +10,7 @@ function Animate() {
   return (
     <div className='animate-page'>
       <h1>Animations page</h1>
-      <div className='scroll'>scroll boiiii</div>
+      <div className='scroll'>scroll down to watch the ball move</div>
       <div className='scroll'>scroll boiiii</div>
       <div className='scroll'>scroll boiiii</div>
       <div className='scroll'>scroll boiiii</div>
