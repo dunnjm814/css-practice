@@ -24,12 +24,14 @@ function SideBar() {
           <IoMdClose />
         </div>
         <div>
-          <NavLink to='/scroll-animations'>Scroll Animation</NavLink>
+          <NavLink to="/scroll-animations">Scroll Animation</NavLink>
         </div>
         <div>
-          <NavLink to='/morph'>Morph</NavLink>
+          <NavLink to="/morph">Morph</NavLink>
         </div>
-        <div>section three</div>
+        <div>
+          <NavLink to="/qrcode">QR code</NavLink>
+        </div>
       </div>
     </>
   );
