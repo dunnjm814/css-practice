@@ -1,0 +1,28 @@
+.qr-wrap{
+  margin-left: 400px;
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.code-container{
+  margin: 2em;
+}
+.kitty-container{
+  border: solid rgba(0, 0, 0, 0) 0;
+  border-radius: 5em;
+  width: 40em;
+  height: 30em;
+  box-shadow: 64px 64px 12px 40px rgba(0,0,0,0.4),
+            12px 12px 0px 8px rgba(0,0,0,0.4) inset;
+}
+.kitty{
+  border: solid black 3px;
+  border-radius: 5em;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}

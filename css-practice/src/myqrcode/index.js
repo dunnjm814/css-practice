@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import QRCode from 'qrcode.react'
+import './qrkitty.css'
 
 export default function MyQRCode() {
   const catKey = `${process.env.REACT_APP_CAT_KEY}`
@@ -32,8 +33,12 @@ catImg)
 
   return (
     <div className='qr-wrap'>
-      {/* <QRCode value={qrVal} /> */}
-      <img src={qrVal} alt='its a kitty'/>
+      <div className='code-container'>
+        <QRCode value={qrVal} />
+      </div>
+      <div className='kitty-container'>
+        <img className='kitty' src={qrVal} alt='its a kitty'/>
+      </div>
     </div>
   )
 }
