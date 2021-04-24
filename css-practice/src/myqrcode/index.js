@@ -32,13 +32,20 @@ catImg)
   }, [])
 
   return (
-    <div className='qr-wrap'>
-      <div className='code-container'>
-        <QRCode value={qrVal} />
+    <div className="qr-wrap">
+      <div className="code-container">
+        <QRCode
+          value={qrVal}
+          bgColor={"#fff"}
+          fgColor={"#000000"}
+          level={"L"}
+          includeMargin={false}
+          renderAs={"svg"}
+        />
       </div>
-      <div className='kitty-container'>
-        <img className='kitty' src={qrVal} alt='its a kitty'/>
+      <div className="kitty-container">
+        <img className="kitty" src={qrVal} alt="its a kitty" />
       </div>
     </div>
-  )
+  );
 }
