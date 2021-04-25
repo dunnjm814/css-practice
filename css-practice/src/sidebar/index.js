@@ -27,7 +27,7 @@ function SideBar() {
           <NavLink to="/scroll-animations">Scroll Animation</NavLink>
         </div>
         <div>
-          <NavLink to="/morph">Morph</NavLink>
+          <NavLink to="/svg-animations">Svg Animations</NavLink>
         </div>
         <div>
           <NavLink to="/qrcode">QR code</NavLink>

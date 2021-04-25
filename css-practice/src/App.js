@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Animate from './animate';
+import Svganimate from './animate-svg';
 import Morph from './morph';
 import MyQRCode from './myqrcode';
 import SideBar from "./sidebar";
@@ -15,8 +16,8 @@ function App() {
           <Route path='/scroll-animations'>
             <Animate />
           </Route>
-          <Route path='/morph'>
-            <Morph />
+          <Route path='/svg-animations'>
+            <Svganimate />
           </Route>
           <Route path='/qrcode'>
             <MyQRCode />
