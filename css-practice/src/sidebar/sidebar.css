@@ -3,9 +3,11 @@ font-size: 50px;
 padding: 25px;
 transition: 0.5s;
 width: 400px;
+position: absolute;
+z-index: 5;
 }
 .button:hover{
-  cursor:pointer;
+  cursor: pointer;
   color: #f4cabd
 }
 
@@ -28,6 +30,7 @@ width: 400px;
 
   transform: translateX(-100%);
   transition: transform 0.24s ease-out;
+  z-index: 10;
 }
 .close{
   position: absolute;

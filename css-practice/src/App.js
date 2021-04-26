@@ -5,6 +5,8 @@ import Svganimate from './animate-svg';
 import Morph from './morph';
 import MyQRCode from './myqrcode';
 import SideBar from "./sidebar";
+import "./app.css"
+
 
 function App() {
   return (
