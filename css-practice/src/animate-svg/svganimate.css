@@ -4,3 +4,39 @@
   display: border-box;
   text-align: center;
 }
+.wrapper{
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 1px;
+}
+.section{
+  position: relative;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image1::after{
+  background-image: url('../images/mountain1.jpg');
+}
+.image2::after{
+  background-image: url('../images/mountain2.jpg');
+}
+.parallax::after{
+  content: '';
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  transform: translateZ(-1px) scale(2);
+  background-size: cover;
+  z-index: -1;
+}
+.static{
+  background: #FF744A;
+}
