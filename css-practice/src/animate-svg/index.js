@@ -1,4 +1,5 @@
 import BikeGuy from './bikeguy'
+import BracketPeople from './bracket'
 import './svganimate.css'
 
 
@@ -16,7 +17,7 @@ export default function Svganimate() {
           <h1>Scroll down for an animation!</h1>
         </div>
         <div className='section static'>
-          <BikeGuy />
+          <BracketPeople />
         </div>
       </div>
     </div>

@@ -4,9 +4,6 @@ import './animations.css'
 
 
 function Animate() {
-  useLayoutEffect(() => {
-
-  })
   return (
     <div className='animate-page'>
       <h1>Animations page</h1>

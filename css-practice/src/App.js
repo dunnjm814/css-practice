@@ -6,6 +6,7 @@ import Morph from './morph';
 import MyQRCode from './myqrcode';
 import SideBar from "./sidebar";
 import "./app.css"
+import Home from './home/home';
 
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
       <BrowserRouter>
         <SideBar />
         <Switch>
+          <Route exact path='/'>
+            <Home />
+          </Route>
           <Route path='/scroll-animations'>
             <Animate />
           </Route>
