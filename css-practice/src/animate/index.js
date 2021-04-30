@@ -1,6 +1,6 @@
 import React, {useLayoutEffect} from 'react'
 import Circle from './circle';
-import './animations.css'
+import './animations.scss'
 
 
 function Animate() {
