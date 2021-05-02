@@ -2,7 +2,6 @@ import React from 'react'
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Animate from './animate';
 import Svganimate from './animate-svg';
-import Morph from './morph';
 import MyQRCode from './myqrcode';
 import SideBar from "./sidebar";
 import "./app.css"
