@@ -1,9 +1,10 @@
+import DoorSvg from "./door";
 
 
-function KeyFrame() {
+export default function Door() {
   return (
     <div>
-      
+      <DoorSvg />
     </div>
   )
 }

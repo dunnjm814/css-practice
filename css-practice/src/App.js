@@ -7,6 +7,7 @@ import MyQRCode from './myqrcode';
 import SideBar from "./sidebar";
 import "./app.css"
 import Home from './home/home';
+import Door from './keyframe';
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path='/qrcode'>
             <MyQRCode />
+          </Route>
+          <Route path='/door'>
+            <Door />
           </Route>
         </Switch>
       </BrowserRouter>

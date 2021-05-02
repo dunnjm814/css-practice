@@ -1,4 +1,5 @@
-import Me from '../me-svg/Me'
+
+import MeTwo from '../me-svg/Me2'
 import './home.scss'
 
 
@@ -15,7 +16,8 @@ export default function Home() {
         </div>
       </section>
       <section id="two" className="me-svg">
-        <Me />
+
+        <MeTwo />
       </section>
     </div>
   );
