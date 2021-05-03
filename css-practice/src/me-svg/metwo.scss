@@ -166,7 +166,7 @@
   height: 50%;
   g{
     path {
-      @include random-animate(952, fill, 10s linear infinite alternate, 10, random-rgba, (3, 1, 4), .8);
+      @include random-animate(52, fill, 10s linear infinite alternate, 10, random-rgba, (3, 1, 4), .8);
     }
   }
 }
